@@ -19,12 +19,12 @@ now = datetime.now()
 
 response = requests.get("https://www.nordpoolgroup.com/api/marketdata/page/59?currency=,,,EUR")
 
-dateOfInterest = now.strftime('⅜d-%m-%Y')
+dateOfInterest = now.strftime('%d-%m-%Y')
 
 jayson = json.loads(response.text)
 
-for row in jayson['data']['Ŗows']:
-    if row['ĪsExtraRow']:
+for row in jayson['data']['Rows']:
+    if row['IsExtraRow']:
         continue
 
     for dayData in row['Columns']:
