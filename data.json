@@ -3507,9 +3507,7 @@
    "header":{
       "title":"Day-ahead prices",
       "description":"",
-      "questionMarkInfo":"
-Day-ahead prices represent the result of Nord Pool’s day-ahead implicit auction market.
-
+      "questionMarkInfo":"Day-ahead prices represent the result of Nord Pool’s day-ahead implicit auction market.
 \n
   
 

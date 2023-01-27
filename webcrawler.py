@@ -10,4 +10,4 @@ for index in range(1,len(data_json["data"]["Rows"])):
   eSplit=data_json["data"]["Rows"][index]["EndTime"].split("T")
   sSplit=data_json["data"]["Rows"][index]["StartTime"].replace('T', ' ')
   eSplit=data_json["data"]["Rows"][index]["EndTime"].replace('T', ' ')  
-    print(sSplit+" - "+eSplit+"  Value: "+data_json["data"]["Rows"][index]["Columns"][1]["Value"]+" EUR")
+  print(sSplit+" - "+eSplit+"  Value: "+data_json["data"]["Rows"][index]["Columns"][1]["Value"]+" EUR")
